@@ -1,0 +1,83 @@
+/* Reset do CSS Padrão */
+* {
+    margin: 0 auto;
+}
+
+body {
+    padding-bottom: 500px;
+}
+
+h2 {
+    font-size: 22px;
+    color: blue;
+}
+
+h3 {
+    color: blueviolet;
+}
+
+/* Classe */
+.meu-titulo3 {
+    color: #3daf7a;
+}
+
+/* ID */
+#ultimo-h3 {
+    color: grey;
+}
+
+.cor-rosa {
+    color: rgb(177, 25, 164);
+}
+
+.fundo-azul {
+    background-color: blue;
+    color: #ffff;
+}
+
+.texto-pequeno,
+#meu-paragrafo {
+    font-size: 10px;
+}
+
+#minha-div {
+    background-image: url('../assets/crow_bkgd_1.jpg');
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+#altura-largura {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+
+#div-espacamento {
+    background-color: #33aa33;
+    display: flex;
+    align-items: center;
+    /* cima, direita, esquerda, baixo */
+    padding: 15px 10px;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+#div-margem {
+    background-color: palevioletred;
+    margin: 10px 15px 30px 15px;
+    display: flex;
+    align-items: center;
+}
+
+#div-borda {
+    background-color: burlywood;
+    width: 200px;
+    height: 200px;
+    /* tamanho, tipo, cor */
+    border: 3px solid black;
+    align-items: center;
+    display: flex;
+}
